@@ -1,0 +1,86 @@
+# ==========================================
+# 1. Environment & Secret Files
+# ==========================================
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.production
+*.env
+*.pem
+*.key
+*.p12
+*.jks
+
+# ==========================================
+# 2. IDE & Editor Files
+# ==========================================
+# IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+
+# VS Code
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# Eclipse
+.classpath
+.project
+.settings/
+bin/
+
+# OS Generated
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# ==========================================
+# 3. Backend (Java / Spring Boot / Maven)
+# ==========================================
+backend/target/
+backend/bin/
+backend/*.jar
+backend/*.war
+backend/*.ear
+backend/*.rar
+backend/hs_err_pid*
+backend/replay_pid*
+
+# Logs
+backend/logs/
+*.log
+
+# ==========================================
+# 4. Frontend (Node.js / React / Vite / TypeScript)
+# ==========================================
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+frontend/.nx/
+frontend/.cache/
+frontend/.eslintcache
+
+# NPM / Yarn / PNPM Logs
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+frontend/pnpm-debug.log*
+
+# ==========================================
+# 5. Docker & Local Database Data
+# ==========================================
+pgdata/
+postgres_data/
+redis_data/
